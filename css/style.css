@@ -20,3 +20,26 @@
     justify-content: space-between;
     text-align: center; /* Centre le texte dans le corps de la carte */
 }
+
+h1 {
+    text-align: center;
+}
+
+.like-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Espacement entre l'icône et le texte */
+    cursor: pointer;
+}
+
+.like-icon {
+    width: 30px; /* Ajustez la taille de l'icône */
+    height: 30px;
+}
+
+.like-text {
+    font-size: 16px;
+}
+
+.container{background-color: rgb(37, 138, 175) !important;}
