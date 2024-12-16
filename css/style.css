@@ -1,0 +1,22 @@
+.card {
+    height: 100%; /* Les cartes auront toutes la même hauteur */
+    overflow: hidden; /* Empêche tout dépassement des éléments */
+    display: flex;
+    flex-direction: column; /* Empile l'image et le contenu verticalement */
+    align-items: center; /* Centre les éléments horizontalement */
+}
+
+.card-img-top {
+    height: 250px; /* Fixe une hauteur uniforme pour toutes les images */
+    width: 180px; /* Fixe une largeur uniforme */
+    object-fit: contain; /* Affiche l'image entière sans la rogner */
+    object-position: center; /* Centre l'image dans son cadre */
+    background-color: #f8f9fa; /* Optionnel : ajoute une couleur de fond pour remplir les espaces vides */
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center; /* Centre le texte dans le corps de la carte */
+}
