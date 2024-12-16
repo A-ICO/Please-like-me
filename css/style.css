@@ -8,10 +8,10 @@
 
 .card-img-top {
     height: 250px; /* Fixe une hauteur uniforme pour toutes les images */
-    width: 180px; /* Fixe une largeur uniforme */
+    width: 180px; 
     object-fit: contain; /* Affiche l'image entière sans la rogner */
     object-position: center; /* Centre l'image dans son cadre */
-    background-color: #f8f9fa; /* Optionnel : ajoute une couleur de fond pour remplir les espaces vides */
+    background-color: #f8f9fa; 
 }
 
 .card-body {
